@@ -1,5 +1,5 @@
 echo"A script to create, activate and install requirements"
-echo"........'
+echo"........"
 
 virtualenv venv
 
@@ -8,8 +8,8 @@ echo"Activation my env"
 source venv/bin/activate
 
 echo"........"
-echo"install requitements.txt"
-pip install -r requirements.txt
+echo"install requitement.txt"
+pip install -r requirement.txt
 
 sleep(2)
 echo"install done"
